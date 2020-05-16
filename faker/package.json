@@ -1,0 +1,14 @@
+{
+  "name": "jsfake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "random.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mel",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
