@@ -8,10 +8,10 @@ console.log(inst)
                     
 for (let i = 0; i < 10; i++) 
 {
-const individual = faker.commerce.price()
-const public = faker.commerce.price()
-const sum_price = faker.commerce.price()
+    const individual = faker.commerce.price()
+    const public = faker.commerce.price()
+    const sum_price = faker.commerce.price()
 
-genInsert_yellow_price = `(DEFAULT, '${individual}', '${public}', '${sum_price}'),`
-console.log(genInsert_yellow_price)
+    genInsert_yellow_price = `(DEFAULT, '${individual}', '${public}', '${sum_price}'),`
+    console.log(genInsert_yellow_price)
 }

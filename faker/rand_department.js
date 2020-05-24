@@ -2,7 +2,7 @@ const faker = require('faker')
 
 const inst = `INSERT INTO department (create_data, desctiplion)
              VALUES`
-console.log(inst)
+    console.log(inst)
 
 	const minID_department = 1
 	const maxID_department = 10

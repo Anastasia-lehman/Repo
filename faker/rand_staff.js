@@ -7,7 +7,8 @@ console.log(inst)
 	const minID_staff = 1
 	const maxID_staff = 10
     
-	for (let i = minID_staff - 1; i < maxID_staff; i++) {
+    for (let i = minID_staff - 1; i < maxID_staff; i++) 
+    {
 		const name = faker.name.firstName()
 		const surname = faker.name.lastName()
 		const contacts = faker.phone.phoneNumber()
@@ -17,7 +18,7 @@ console.log(inst)
         const timetable = faker.date.weekday()
 		
         genInsert_staff = `(DEFAULT, '${name}', '${surname}', '${contacts}', '${bir}', '${contresidence_permitacts}', '${timetable}'),`
-console.log(genInsert_staff)
+        console.log(genInsert_staff)
 
     }
     

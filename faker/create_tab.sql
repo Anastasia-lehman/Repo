@@ -184,6 +184,19 @@ CREATE TABLE special_discount (
     description varchar(255)
 );
 
+INSERT INTO special_discount (name, desctiplion)
+            VALUES
+            (DEFAULT, 'Strategist Cambridgeshire', 'JSON Money Market Account Berkshire'),
+            (DEFAULT, 'transmitter Borders', 'Producer connect'),
+            (DEFAULT, 'Interactions', 'Mews'),
+            (DEFAULT, 'Home Loan Account navigate New Caledonia', 'extensible'),
+            (DEFAULT, 'SMS radical Credit Card Account', 'violet orchid'),
+            (DEFAULT, 'Generic user-facing', 'New Taiwan Dollar'),
+            (DEFAULT, 'Tuna Buckinghamshire Frozen', 'Valleys technologies Fish'),
+            (DEFAULT, 'digital', 'Steel'),
+            (DEFAULT, 'AGP multi-byte', 'Junctions Generic Rubber Hat'),
+            (DEFAULT, 'regional transitional', 'Personal Loan Account Persevering');
+
 ---------
 ------------------------------------BILL------------------------------------
 ---------

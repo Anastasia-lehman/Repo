@@ -8,8 +8,8 @@ console.log(inst)
                     
 for (let i = 0; i < 10; i++) 
 {
-const card_number = faker.random.number(1000000)
+    const card_number = faker.random.number(1000000)
 
-genInsert_discount_card = `(DEFAULT, ${card_number}),`
-console.log(genInsert_discount_card)
+    genInsert_discount_card = `(DEFAULT, ${card_number}),`
+    console.log(genInsert_discount_card)
 }
