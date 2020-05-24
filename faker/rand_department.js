@@ -1,6 +1,6 @@
 const faker = require('faker')
 
-const inst = `INSERT INTO department (create_data, desctiplion)
+const inst = `INSERT INTO department (id, name)
              VALUES`
     console.log(inst)
 

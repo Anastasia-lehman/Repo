@@ -1,6 +1,6 @@
 const faker = require('faker')
 
-const inst = `INSERT INTO suply_product (count_product, price_product)
+const inst = `INSERT INTO supply_product (count_product, price_product)
              VALUES`
 console.log(inst)
               
